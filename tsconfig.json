@@ -10,7 +10,11 @@
     "paths":{
       "@/components/*" : ["src/components/*"],
       "@/hooks/*" : ["src/hooks/*"],
-      "@/redux/*" : ["src/redux/*"]
+      "@/redux/*" : ["src/redux/*"],
+      "@/screens/*" : ["src/screens/*"],
+      "@/navigations/*" : ["src/navigations/*"],
+      "@/styles/*" : ["src/styles/*"],
+      "@/json/*" : ["src/json/*"]
     }
   }
 }

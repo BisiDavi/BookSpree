@@ -57,7 +57,7 @@ const Section: React.FC<
   );
 };
 
-const Default = () => {
+const DefaultScreen2 = () => {
   const isDarkMode = useColorScheme() === 'dark';
 
   const backgroundStyle = {
@@ -75,10 +75,10 @@ const Default = () => {
           style={{
             backgroundColor: isDarkMode ? Colors.black : Colors.white,
           }}>
-          <Section title="Getting started for the hackathon">
-            <Text>So help me GOD</Text>
+          <Section title="Screen 2">
+            <Text>You & I</Text>
           </Section>
-          <Section title="HELLO SMITH">
+          <Section title="Step One">
             Edit <Text style={styles.highlight}>App.tsx</Text> to change this
             screen and then come back to see your gee.
           </Section>
@@ -117,4 +117,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default Default;
+export default DefaultScreen2;
